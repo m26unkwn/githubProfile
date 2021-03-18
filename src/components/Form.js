@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 
 export const Form = (props) => {
-  const [user, setUser] = useState({ userName: null });
+  const [user, setUser] = useState({ userName: "" });
 
   const HandleSubmit = async (event) => {
     event.preventDefault();

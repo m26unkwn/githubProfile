@@ -14,10 +14,14 @@ class Card extends React.Component {
         <div className='info'>
           <div
             className='name'
-            style={{ fontSize: "2rem", fontWeight: "large" }}>
+            style={{ fontSize: "2rem", fontWeight: "bold" }}>
             Name: {profile.name}{" "}
           </div>
-          <div className='company'>Company: {profile.company}</div>
+          <div
+            className='company'
+            style={{ fontSize: "1rem", fontWeight: "bold" }}>
+            Company: {profile.company}
+          </div>
         </div>
       </div>
     );
